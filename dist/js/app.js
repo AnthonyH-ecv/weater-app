@@ -51,7 +51,7 @@ const submit = () => {
           </div>
 
           <div class = description>
-            <img src="http://openweathermap.org/img/w/${icon}.png" alt="icon météo">
+            <img src="https://openweathermap.org/img/w/${icon}.png" alt="icon météo">
             <p>${jsonData.weather[0].description}</p>
           </div>
 

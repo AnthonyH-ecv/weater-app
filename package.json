@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnthonyH-ecv/weater-app.git"
+    "url": "git+https://github.com/AnthonyH-ecv/weather-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": " https://anthonyh-ecv.github.io/weater-app",
+  "homepage": " https://anthonyh-ecv.github.io/weather-app",
   "bugs": {
-    "url": "https://github.com/AnthonyH-ecv/weater-app/issues"
+    "url": "https://github.com/AnthonyH-ecv/weather-app/issues"
   },
-  "homepage": "https://github.com/AnthonyH-ecv/weater-app#readme",
+  "homepage": "https://github.com/AnthonyH-ecv/weather-app#readme",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }

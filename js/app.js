@@ -16,7 +16,7 @@ const submit = () => {
 
   var city = cityName.value;
   var key = "APPID=b370cb2879fda84d3f7ad1d2e06af966";
-  var data = `http://api.openweathermap.org/data/2.5/weather?q=${city}&${key}&lang=fr&units=metric`;
+  var data = `https://api.openweathermap.org/data/2.5/weather?q=${city}&${key}&lang=fr&units=metric`;
 
   console.log(city);
 

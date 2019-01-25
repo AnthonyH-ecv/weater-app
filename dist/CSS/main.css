@@ -1,0 +1,154 @@
+/*
+ * ─── FORMULAIRE INPUT FIELD ─────────────────────────────────────────────────────
+ */
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 10vh;
+}
+
+.input-field {
+  position: relative;
+  width: 550px;
+  height: 44px;
+  line-height: 1;
+  margin-right: 30px;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #d3d3d3;
+  transition: 0.2s all;
+  cursor: text;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #d3d3d3;
+  box-shadow: none;
+  color: #111;
+}
+
+input:invalid {
+  outline: 0;
+  /* // color: #ff2300;
+  //   border-color: #ff2300; */
+}
+
+input:focus,
+input:valid {
+  border-color: #668ad8;
+}
+
+input:focus~label,
+input:valid~label {
+  font-size: 14px;
+  top: -24px;
+  color: #668ad8;
+}
+
+button {
+  display: block;
+}
+
+.btn-sub {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.5em 4em;
+  text-decoration: none;
+  color: #668ad8;
+  background: #e1f3ff;
+  transition: all .4s ease-in-out;
+}
+
+.btn-sub:hover {
+  background: #668ad8;
+  color: #FFF;
+
+}
+
+/*
+ * ─── CONTENT TOP ────────────────────────────────────────────────────────────────
+ */
+
+.content {
+  width: 75%;
+  height: 70vh;
+  margin: auto;
+}
+
+.content-top {
+  display: flex;
+  height: 70%;
+  margin: auto;
+}
+
+.img-banner {
+  background-color: cadetblue;
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  background-color: darkcyan;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.content-bottom {
+  background-color: aquamarine;
+  display: flex;
+  height: 30%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.content-bottom p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+
+.temperature {
+  display: flex;
+  flex-basis: 80%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 4em;
+  font-weight: 700;
+}

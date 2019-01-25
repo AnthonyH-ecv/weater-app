@@ -1,0 +1,36 @@
+@media screen and (max-width: 700px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .btn-sub {
+    margin-top: 15px;
+  }
+
+  .content {
+    margin-bottom: 50px;
+  }
+
+  .content-top {
+    flex-direction: column;
+    height: auto;
+
+  }
+
+  .temperature {
+    padding: 30px;
+  }
+
+  .content-bottom {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .content-bottom p {
+    padding: 30px;
+  }
+
+  .description {
+    padding: 30px;
+  }
+}
